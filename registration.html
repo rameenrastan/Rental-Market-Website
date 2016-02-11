@@ -1,0 +1,62 @@
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta charset="utf-8"> 
+<link rel="stylesheet" type="text/css" href="rentalmarket.css">
+<script src="rentalmarket.js"></script>
+<title>
+Registration
+</title>
+</head>
+
+<body>
+<div class="header">
+<h1>
+Rameen's Rental Matching Market
+</h1>
+</div>
+<div class="navigation">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="registration.html">Register</a></li>
+</ul>
+</div>
+
+<h2>
+Registration
+</h2>
+
+
+
+
+<form action="welcome.php" method="post" onsubmit="return checkForm()">
+Follow these easy steps to register your free account today! <br>
+<span style="color:red"> Note: All fields are required. </span> <br><br>
+
+
+First Name (letters and dash only): <input type="text" name="firstName" id="firstName"><br><br>
+Last Name (letters and dash only): <input type="text" name="lastName" id="lastName"><br><br>
+Registered as: 
+<select name="type">
+<option value="Tenant">Tenant</option>
+<option value="Owner">Property Owner</option>
+</select>
+<br><br>
+Phone Number: <input type="text" id="phone" name="phone" value="(xxx)xxx-xxxx"><br><br>
+Email address (form: example123@example.com): <input type="text" name="email" id="email"><br><br>
+Login Name (letters and digits only, 6 characters min.): <input type="text" name="username" id="username"><br><br>
+Password (letters and digits only, at least 1 of each, 6 characters min.): <input name="password" type="password" id="password"> <br><br>
+Confirm Password: <input type="password" name="confirmPass" id="confirmPassword"> <br><br>
+<input type="Submit">
+<input type="Reset">
+
+</form>
+<br><br><br><br><br><br><br>
+<footer>
+  <p> <b>Copyright 2015 Rameen Rastan-Vadiveloo. All Rights Reserved. Contact e-mail: rameenrastanv@hotmail.com </b> </p>
+</footer>
+</body>
+
+</html>
